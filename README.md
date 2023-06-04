@@ -21,7 +21,7 @@
   <p>To run this project locally, follow these steps:</p>
   <ol>
     <li>Clone the repository: <code>git clone https://github.com/tanyaKalra-8/Food-Ordering-app---F2</code></li>
-    <li>Deployed Link:  <code></code></li>
+    <li>Deployed Link:  <code>https://tanyakalra-8.github.io/Food-Ordering-app---F2/</code></li>
   </ol>
 
   <h2>Usage</h2>
