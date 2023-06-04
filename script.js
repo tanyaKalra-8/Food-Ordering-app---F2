@@ -23,6 +23,8 @@ async function getMenu() {
     return new Promise(resolve => {
       setTimeout(() => {
         const burgers = ['burger 1', 'Burger 2', 'Burger 3'];
+        console.log(burgers)
+        console.log(typeof burgers)
         const randomBurgers = [];
         for (let i = 0; i < 3; i++) {
           const randomIndex = Math.floor(Math.random() * burgers.length);
