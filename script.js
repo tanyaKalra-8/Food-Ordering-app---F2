@@ -1,19 +1,3 @@
-// async function getMenu() {
-//     try {
-//       const response = await fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json');
-//       const data = await response.json();
-  
-//       const menuContainer = document.getElementById('menu');
-//       data.forEach(item => {
-//         const menuItem = document.createElement('div');
-//         menuItem.innerHTML = `<h3>${item.name}</h3><p>${item.description}</p><p>$${item.price}</p>`;
-//         menuContainer.appendChild(menuItem);
-//       });
-//     } catch (error) {
-//       console.error('Error:', error);
-//     }
-//   }
-
 async function getMenu() {
     try {
       const response = await fetch('https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json');
@@ -34,11 +18,7 @@ async function getMenu() {
       console.error('Error:', error);
     }
   }
-  
-  
-  
-  
-  
+
   function takeOrder() {
     return new Promise(resolve => {
       setTimeout(() => {
