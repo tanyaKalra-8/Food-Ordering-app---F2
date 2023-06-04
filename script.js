@@ -52,7 +52,7 @@ async function getMenu() {
   function thankYou() {
     setTimeout(() => {
         alert('Thank you for eating with us today!');
-    }, 1000)
+    }, 500)
   }
   
   async function placeOrder() {
