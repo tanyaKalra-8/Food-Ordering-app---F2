@@ -49,7 +49,7 @@ async function getMenu() {
     });
   }
   
-  function thankYou() {
+  function thankyouFnc() {
     setTimeout(() => {
         alert('Thank you for eating with us today!');
     }, 500)
@@ -80,7 +80,7 @@ async function getMenu() {
       paymentStatus.textContent = `Order Status: ${payment.order_status}, Paid: ${payment.paid}`;
   
       if (payment.paid) {
-        thankYou();
+        thankyouFnc();
       }
   
       // Disable the "Pay" button
