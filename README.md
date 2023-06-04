@@ -40,6 +40,11 @@
     <li>JavaScript</li>
   </ul>
 
+  <h2>Preview</h2>
+  <img src="./overview/Food ordering app.png" alt="image">
+  <img src="./overview/Food ordering app 1.png" alt="image">
+  <img src="./overview/Food ordering app 2.png" alt="image">
+
   <h2>Contributing</h2>
   <p>Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.</p>
 
